@@ -1,0 +1,144 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/giphy1.gif);
+    background-color: black;
+    background-size: 10%;
+
+}
+
+.parent {
+    background-size: contain;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+    font-family: 'Courier New', monospace;
+}
+.background-about {
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    border: 5px solid #ffee03;
+    opacity: 98%;
+}
+.logo {
+    position: absolute;
+    margin: auto;
+    top: 1%;
+    left: 25%;
+    width: 50%;
+    transition: transform .7s ease-in-out;
+}
+.logo:hover {
+    transform: rotate(360deg);
+}
+
+.choice {
+    position: absolute;
+    margin: auto;
+    top: 35%;
+    left: 1.5%;
+    width: 98%;
+    transition: transform .5s ease-in-out;
+}
+.choice:hover {
+    transform: scale(1.01)
+}
+.steam {
+    position: absolute;
+    margin: auto;
+    width: 25%;
+    top: 50%;
+    left: 1.5%;
+}
+.humble {
+    position: absolute;
+    margin: auto;
+    width: 25%;
+    top: 50%;
+    left: 35%;
+}
+
+.gog {
+    position: absolute;
+    margin: auto;
+    width: 25%;
+    top: 50.8%;
+    left: 70%;
+}
+
+.button1 {
+    position: absolute;
+    margin: auto;
+    width: 25%;
+    height: 2%;
+    top: 80%;
+    left: 8%;
+    transition: transform .2s;;
+    font: bold 25px Arial;
+    text-decoration: none;
+    background-color: #d7eb25;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    
+  }
+
+  .button2 {
+    position: absolute;
+    margin: auto;
+    width: 25%;
+    height: 2%;
+    top: 80%;
+    left: 65%;
+    transition: transform .2s;;
+    font: bold 25px Arial;
+    text-decoration: none;
+    background-color: #d7eb25;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    
+  }
+
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }

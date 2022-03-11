@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/giphy1.gif);
+    background-color: black;
+    background-size: 10%;
+
+}
+
+.parent {
+    background-size: contain;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+.background-about {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    border: 5px solid #ffee03;
+    opacity: 98%;
+}
+.title {
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 4%;
+    left: 19%;
+    width: 100%;
+    font-size: 50px;
+    transition: transform .5s ease-in-out;
+}
+.title:hover {
+    transform: rotate(360deg);
+}
+
+.content {
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    left: 0.5%;
+    width: 100%;
+    transition: transform .5s ease-in-out;
+    text-align: center;
+    font-size: 30px;
+}
+.content:hover {
+    transform: scale(1.01);
+}
+
+.bye {
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 60%;
+    left: 0.5%;
+    width: 100%;
+    transition: transform .5s ease-in-out;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.bye:hover {
+    transform: rotate(180deg)
+
+}
+
+.button1 {
+    position: absolute;
+    margin: auto;
+    width: 25%;
+    height: 5%;
+    top: 80%;
+    left: 8%;
+    transition: transform .2s;;
+    font: bold 25px Arial;
+    text-decoration: none;
+    background-color: #d7eb25;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    
+  }
+
+  .button2 {
+    position: absolute;
+    margin: auto;
+    width: 25%;
+    height: 5%;
+    top: 80%;
+    left: 65%;
+    transition: transform .2s;;
+    font: bold 25px Arial;
+    text-decoration: none;
+    background-color: #d7eb25;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    
+  }
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
